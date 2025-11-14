@@ -13,7 +13,7 @@ export default function OurClientsSection() {
 
       {/* Section Heading */}
       <div className="relative text-center mb-16 z-10">
-        <h2 className="text-4xl sm:text-6xl font-bold mb-4">Our Clients</h2>
+        <h2 className="text-4xl sm:text-5xl font-bold mb-4">Our Clients</h2>
         <p className="text-white/70 text-sm sm:text-xl leading-relaxed">
           Hear how businesses use Walakulu to stay connected, close more leads,{" "}
           <br className="hidden sm:block" />

@@ -11,7 +11,7 @@ export default function CustomerSupportSection() {
 
       {/* Centered content */}
       <div className="relative z-10 flex flex-col items-center text-center max-w-2xl">
-        <h2 className="text-4xl sm:text-6xl font-bold text-white mb-6 leading-tight">
+        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight">
           AI-driven Customer <br /> Support 24/7
         </h2>
 

@@ -50,7 +50,7 @@ export default function PricingSection() {
     <section className="relative w-full bg-background text-white flex flex-col items-center justify-center py-16 px-2 sm:px-4 md:px-6 overflow-hidden">
       {/* Heading */}
       <div className="text-center mb-16 sm:mb-20 relative z-10">
-        <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">
           Pricing
         </h2>
         <p className="text-white/90 text-sm sm:text-xl">
