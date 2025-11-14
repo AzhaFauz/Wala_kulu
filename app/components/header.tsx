@@ -169,9 +169,6 @@ export default function Header() {
           </nav>
         </div>
       </header>
-
-      {/* Spacer div to prevent content overlap due to fixed header */}
-      <div className="h-24 md:h-28" />
     </>
   );
 }
