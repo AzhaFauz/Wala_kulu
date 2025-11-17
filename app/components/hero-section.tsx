@@ -38,8 +38,12 @@ export default function HeroSection() {
           It’s like having your best salesperson on duty, 24/7.
         </p>
 
-        {/* Button */}
-        <button className="bg-white text-black font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-xl text-sm sm:text-base hover:opacity-90 transition">
+        {/* Button with hover lift + glow */}
+        <button
+          className="bg-white text-black font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-xl text-sm sm:text-base 
+                     transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 
+                     hover:shadow-lg hover:shadow-[#079DFB]/40"
+        >
           Request a free demo
         </button>
       </div>

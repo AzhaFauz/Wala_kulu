@@ -22,7 +22,11 @@ export default function CustomerSupportSection() {
             placeholder="Your email"
             className="flex-1 bg-transparent text-white placeholder-white/60 px-5 py-3 outline-none text-sm rounded-l-lg"
           />
-          <button className="bg-white text-black font-medium px-5 py-3 rounded-lg hover:bg-gray-200 transition-colors">
+          <button
+            className="bg-white text-black font-medium px-5 py-3 rounded-lg 
+             transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 
+             hover:shadow-lg hover:shadow-[#079DFB]/40"
+          >
             Join waitlist
           </button>
         </div>

@@ -50,7 +50,7 @@ export default function Header() {
               item === "Features" ? (
                 <div
                   key={item}
-                  className="relative flex items-center gap-1 text-white/60 hover:text-white transition-colors text-sm font-medium cursor-pointer"
+                  className="relative flex items-center gap-1 text-white/60 hover:text-white transition-all duration-300 transform hover:-translate-y-0.5 hover:scale-105 cursor-pointer"
                   onMouseEnter={() => setFeaturesOpen(true)}
                   onMouseLeave={() => setFeaturesOpen(false)}
                 >
@@ -83,7 +83,7 @@ export default function Header() {
                 <Link
                   key={item}
                   href={`#${item.toLowerCase().replace(" ", "-")}`}
-                  className="flex items-center gap-1 text-white/60 hover:text-white transition-colors text-sm font-medium"
+                  className="flex items-center gap-1 text-white/60 hover:text-white transition-all duration-300 transform hover:-translate-y-0.5 hover:scale-105 text-sm font-medium"
                 >
                   {item}
                 </Link>
@@ -96,7 +96,7 @@ export default function Header() {
             {/* Desktop Button */}
             <div className="relative group hidden md:block">
               <div className="absolute inset-0 rounded-xl border-2 border-white/15"></div>
-              <button className="relative z-10 bg-[#079DFB] hover:bg-[#0588DC] text-white font-medium px-5 py-2 rounded-xl transition-colors duration-300">
+              <button className="relative z-10 bg-[#079DFB] hover:bg-[#0588DC] text-white font-medium px-5 py-2 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:shadow-[#079DFB]/50">
                 Join waitlist
               </button>
             </div>
