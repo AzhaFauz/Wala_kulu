@@ -53,7 +53,7 @@ export default function OptimizeSection() {
             <div
               key={i}
               className={clsx(
-                "relative rounded-2xl overflow-hidden border min-h-[320px] md:h-[330px] flex flex-col transition-transform duration-300 ease-out hover:scale-105 hover:shadow-2xl",
+                "relative rounded-2xl overflow-hidden border min-h-80 md:h-[330px] flex flex-col transition-transform duration-300 ease-out hover:scale-105 hover:shadow-2xl",
                 card.span,
                 card.type === "dark"
                   ? "border-white/30 bg-black p-4 sm:p-6"
@@ -70,7 +70,7 @@ export default function OptimizeSection() {
                     className="object-contain opacity-100"
                   />
                   {/* Gradient overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#079DFB]/80"></div>
+                  <div className="absolute inset-0 bg-linear-to-b from-transparent to-[#079DFB]/80"></div>
                   {/* Semi-transparent dark layer behind text for readability */}
                   <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6 bg-black/30 z-20 rounded-t-lg text-left max-w-full animate-fadeUp">
                     <h3 className="text-white text-lg sm:text-xl font-semibold mb-1">
