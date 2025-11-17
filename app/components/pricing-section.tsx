@@ -74,12 +74,13 @@ export default function PricingSection() {
           <div
             key={i}
             className={`relative flex flex-col items-start text-left border border-white/20 
-              rounded-2xl p-6 sm:p-8 md:p-10 transition-all w-full
-              ${
-                plan.highlight
-                  ? "overflow-hidden border-[#079DFB] shadow-[0_0_40px_rgba(7,157,251,0.4)]"
-                  : "bg-transparent"
-              }`}
+    rounded-2xl p-6 sm:p-8 md:p-10 transition-all duration-300 ease-out w-full
+    transform hover:-translate-y-2 hover:scale-[1.02] hover:shadow-2xl
+    ${
+      plan.highlight
+        ? "overflow-hidden border-[#079DFB] shadow-[0_0_40px_rgba(7,157,251,0.4)] pulse-glow-hover"
+        : "bg-transparent hover:shadow-lg hover:shadow-black/20"
+    }`}
           >
             {/* Highlight BG */}
             {plan.highlight && (

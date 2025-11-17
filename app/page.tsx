@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import HeroSection from "./components/hero-section";
 import BuiltSection from "./components/built-section";
 import TrustedBySection from "./components/trusted-by-section";
+import OptimizeSection from "./components/optimize-section";
 import CustomerExperienceSection from "./components/customer-experience-section";
 import CustomerSupportSection from "./components/customer-support-section";
 import OurClientsSection from "./components/our-clients-section";
@@ -18,6 +19,7 @@ export default function HomePage() {
         <HeroSection />
         <BuiltSection />
         <TrustedBySection />
+        <OptimizeSection />
         <CustomerExperienceSection />
         <OurClientsSection />
         <PricingSection />
