@@ -24,7 +24,7 @@ export default function OurClientsSection() {
   return (
     <section
       id="clients-section"
-      className="relative w-full bg-black text-white flex flex-col items-center justify-center py-16 px-6 overflow-hidden"
+      className="relative w-full bg-background text-white flex flex-col items-center justify-center py-16 px-6 overflow-hidden"
     >
       {/* Background grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-size-[80px_80px] opacity-40 pointer-events-none"></div>

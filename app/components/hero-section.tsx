@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full text-white flex flex-col items-center justify-center px-4 sm:px-6 lg:px-16 pt-24 overflow-hidden">
+    <section className="relative w-full bg-background text-white flex flex-col items-center justify-center px-4 sm:px-6 lg:px-16 pt-24 overflow-hidden">
       {/* Soft Blue Glow Behind Content */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
         <div className="w-[1600px] h-[1200px] rounded-full bg-[#079DFB]/40 blur-[200px]"></div>

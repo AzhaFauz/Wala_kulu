@@ -63,7 +63,7 @@ export default function CustomerExperienceSection() {
 
   return (
     <section
-      className="w-full px-4 sm:px-8 lg:px-20 py-20 
+      className="w-full bg-background px-4 sm:px-8 lg:px-20 py-20 
     bg-linear-to-br from-[#0F6CBD] via-[#063b63] to-[#00070F] text-white"
     >
       <div className="max-w-7xl mx-auto text-left">

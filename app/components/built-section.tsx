@@ -2,7 +2,7 @@
 
 export default function BuiltSection() {
   return (
-    <section className="w-full bg-black flex flex-col items-center justify-center px-4 sm:px-6 lg:px-16 py-16">
+    <section className="w-full bg-background flex flex-col items-center justify-center px-4 sm:px-6 lg:px-16 py-16">
       {/* Subheading */}
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center mb-6 text-white">
         Built for Founders, by Founders
