@@ -26,9 +26,8 @@ export default function HeroSection() {
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight">
           Boost your Sales <br />
           <span className="bg-clip-text text-transparent bg-linear-to-b from-white to-[#079DFB]">
-            with a AI Receptionist
+            with a AI Receptionist.
           </span>
-          .
         </h1>
 
         {/* Subtext */}
