@@ -63,28 +63,30 @@ export default function CustomerExperienceSection() {
 
   return (
     <section
-      className="w-full bg-background px-4 sm:px-8 lg:px-20 py-20 
-    bg-linear-to-br from-[#0F6CBD] via-[#063b63] to-[#00070F] text-white"
+      className="w-full bg-background px-4 sm:px-8 lg:px-20 py-16 sm:py-20 
+      bg-linear-to-br from-[#0F6CBD] via-[#063b63] to-[#00070F] text-white"
     >
-      <div className="max-w-7xl mx-auto text-left">
+      <div className="max-w-7xl mx-auto text-center sm:text-left md:text-left">
         {/* Heading */}
-        <h2 className="text-4xl sm:text-5xl font-bold leading-tight mb-14 text-left">
-          Elevate your
-          <br /> customer experience.
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-snug mb-10 sm:mb-14">
+          <span className="md:block">Elevate your </span>
+          <span className="md:block">customer experience.</span>
         </h2>
 
         {/* Feature grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10 text-left">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8 sm:gap-x-12 sm:gap-y-10 px-6 sm:px-6 md:px-0">
           {features.map((item, idx) => (
             <div
               key={idx}
-              className="flex flex-col space-y-2 max-w-sm text-left"
+              className="flex flex-col space-y-2 max-w-full sm:max-w-sm text-left"
             >
               <div className="flex items-center gap-2 text-left">
                 {item.icon}
-                <h4 className="text-lg font-semibold">{item.title}</h4>
+                <h4 className="text-base sm:text-lg font-semibold">
+                  {item.title}
+                </h4>
               </div>
-              <p className="text-white/70 text-sm leading-relaxed text-left">
+              <p className="text-white/70 text-xs sm:text-base leading-relaxed text-left">
                 {item.desc}
               </p>
             </div>
