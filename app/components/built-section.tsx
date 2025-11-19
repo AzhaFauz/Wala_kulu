@@ -9,7 +9,7 @@ export default function BuiltSection() {
       </h2>
 
       {/* Paragraphs */}
-      <div className="max-w-6xl text-center space-y-6 sm:space-y-8 text-sm sm:text-base md:text-xl text-white/90">
+      <div className="max-w-6xl text-center space-y-6 sm:space-y-8 text-xs sm:text-sm md:text-xl text-white/90">
         <p>
           Running multiple projects, handling clients, managing social media,
           sourcing talent, we built tech to make our own lives easier. Then we

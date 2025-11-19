@@ -13,18 +13,18 @@ export default function TrustedBySection() {
   ];
 
   return (
-    <section className="w-full bg-background text-white flex flex-col items-center justify-center px-4 sm:px-6 lg:px-16 py-15">
+    <section className="w-full bg-background text-white flex flex-col items-center justify-center px-4 sm:px-6 lg:px-16 py-8 sm:py-15">
       {/* Sub-sub-heading */}
-      <h3 className="text-white/80 text-center text-sm sm:text-base md:text-xl font-medium mb-12">
+      <h3 className="text-white/80 text-center text-sm sm:text-sm md:text-xl font-medium mb-8 sm:mb-12">
         Trusted by startups and everyday businesses in
       </h3>
 
       {/* Categories Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 max-w-7xl w-full">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 max-w-7xl w-full">
         {categories.map((category, idx) => (
           <div
             key={idx}
-            className="flex items-center justify-center border border-white/30 rounded-xl py-6 sm:py-8 px-4 sm:px-6 text-center text-sm sm:text-3xl font-medium hover:scale-105 transition-transform cursor-default"
+            className="flex items-center justify-center border border-white/30 rounded-xl py-4 sm:py-6 px-3 sm:px-6 text-center text-xs sm:text-sm md:text-xl font-medium hover:scale-105 transition-transform cursor-default"
           >
             {category}
           </div>
