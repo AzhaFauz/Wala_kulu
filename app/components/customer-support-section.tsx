@@ -2,7 +2,7 @@
 
 export default function CustomerSupportSection() {
   return (
-    <section className="relative w-full bg-background flex justify-center items-center py-24 px-6 rounded-3xl border border-white/30 overflow-hidden">
+    <section className="relative w-full bg-background flex justify-center items-center py-24 md:py-24 sm:py-24 px-6 rounded-3xl border border-white/30 overflow-hidden">
       {/* Blue glow only at top center */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_center,rgba(7,157,251,0.8)_0%,rgba(7,157,251,0.4)_15%,rgba(0,0,0,1)_45%)]"></div>
 
