@@ -2,7 +2,7 @@
 
 export default function CustomerSupportSection() {
   return (
-    <section className="relative w-full bg-background flex justify-center items-center py-24 md:py-24 sm:py-24 px-6 rounded-3xl border border-white/30 overflow-hidden">
+    <section className="relative w-full bg-background flex justify-center items-center py-16 md:py-24 px-6 rounded-3xl border border-white/30 overflow-hidden">
       {/* Blue glow only at top center */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_center,rgba(7,157,251,0.8)_0%,rgba(7,157,251,0.4)_15%,rgba(0,0,0,1)_45%)]"></div>
 
@@ -16,14 +16,17 @@ export default function CustomerSupportSection() {
         </h2>
 
         {/* Email input + button */}
-        <div className="flex flex-col sm:flex-row items-center gap-2 bg-transparent border border-white/30 rounded-xl w-full max-w-md mb-4 p-1">
+        <div className="w-full max-w-md flex flex-col sm:flex-row gap-2 mb-4">
+          {/* Email input */}
           <input
             type="email"
             placeholder="Your email"
-            className="flex-1 bg-transparent text-white placeholder-white/60 px-5 py-3 outline-none text-sm rounded-l-lg"
+            className="w-full bg-transparent text-white placeholder-white/60 px-5 py-3 outline-none text-sm rounded-lg sm:rounded-l-lg sm:rounded-r-none border border-white/30"
           />
+
+          {/* Join waitlist button */}
           <button
-            className="bg-white text-black font-medium px-5 py-3 rounded-lg 
+            className="w-full sm:w-auto mt-2 sm:mt-0 bg-white text-black font-medium px-5 py-3 rounded-lg 
              transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 
              hover:shadow-lg hover:shadow-[#079DFB]/40"
           >
