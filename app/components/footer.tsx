@@ -20,11 +20,13 @@ export default function Footer() {
           <Image
             src="/Logo.png"
             alt="Walakulu Logo"
-            width={120}
-            height={120}
+            width={100}
+            height={100}
             className="object-contain"
           />
-          <h1 className="text-white text-2xl font-semibold">Walakulu</h1>
+          <h1 className="text-white text-xl sm:text-2xl font-semibold">
+            Walakulu
+          </h1>
         </div>
 
         {/* Links */}
@@ -40,7 +42,7 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Social Icons with Hover Animation */}
+        {/* Social Icons */}
         <div className="flex flex-wrap justify-center items-center gap-6 mt-4">
           {socialIcons.map(({ icon, href }, index) => (
             <Link
@@ -54,7 +56,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <p className="text-white text-sm sm:text-base mt-6 text-center">
+        <p className="text-white text-xs sm:text-sm mt-6 text-center">
           © {new Date().getFullYear()} Walakulu AI, Inc. All rights reserved.
         </p>
       </div>
