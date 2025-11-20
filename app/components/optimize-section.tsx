@@ -43,9 +43,9 @@ export default function OptimizeSection() {
     <section className="w-full bg-background py-12 sm:py-16 px-4 sm:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center text-white text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug mb-8 sm:mb-12">
-          <span className="md:block">Harness the power of AI, making</span>
-          <span className="md:block">search engine optimization intuitive</span>
-          <span className="md:block">and effective for all skill levels.</span>
+          <span className="md:block">Harness the power of AI to handle </span>
+          <span className="md:block">every customer call with speed, </span>
+          <span className="md:block">clarity and accuracy.</span>
         </h2>
 
         <div className="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-12 md:gap-10">

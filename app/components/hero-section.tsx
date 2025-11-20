@@ -50,7 +50,7 @@ export default function HeroSection() {
       {/* Hero Image */}
       <div className="relative w-full max-w-full mt-8 sm:mt-12 z-10">
         {/* Mobile Top-Circle Purple Glow */}
-        <div className="md:hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-2/3 w-48 h-48 rounded-full bg-purple-400 blur-[100px] pointer-events-none -z-10"></div>
+        <div className="md:hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-2/3 w-48 h-48 rounded-full bg-[#079DFB] blur-[100px] pointer-events-none -z-10"></div>
 
         <Image
           src="/Hero.png"

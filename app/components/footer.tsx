@@ -1,15 +1,25 @@
 "use client";
 
 import Image from "next/image";
-import { X, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
   const links = ["Company", "About Us", "Changelog", "Features", "Pricing"];
+
   const socialIcons = [
-    { icon: <X size={28} />, href: "#" },
-    { icon: <Instagram size={28} />, href: "#" },
-    { icon: <Linkedin size={28} />, href: "#" },
+    {
+      icon: <Facebook size={28} />,
+      href: "https://www.facebook.com/getwalakulu",
+    },
+    {
+      icon: <Instagram size={28} />,
+      href: "https://www.instagram.com/getwalakulu",
+    },
+    {
+      icon: <Linkedin size={28} />,
+      href: "https://www.linkedin.com/company/walakulu/",
+    },
   ];
 
   return (
@@ -29,7 +39,7 @@ export default function Footer() {
           </h1>
         </div>
 
-        {/* Links */}
+        {/* Footer Links */}
         <div className="flex flex-col items-center gap-4 sm:gap-6">
           {links.map((link) => (
             <Link
@@ -48,6 +58,8 @@ export default function Footer() {
             <Link
               key={index}
               href={href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-white/60 hover:text-white transition-colors duration-300 transform hover:scale-110"
             >
               {icon}
